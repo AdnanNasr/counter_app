@@ -8,4 +8,12 @@ class Count extends _$Count {
   int build() {
     return 0;
   }
+
+  void increment() {
+    state += 1;
+  }
+
+  void decrement() {
+    state -= 1;
+  }
 }
